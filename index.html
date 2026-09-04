@@ -23,7 +23,89 @@
       color: #222;
       line-height: 1.6;
     }
+/* FORMATIONS */
 
+.formations {
+    padding: 80px 20px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.formations h2 {
+    font-size: 38px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.formation-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.formation-card {
+    background: white;
+    width: 330px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.formation-card:hover {
+    transform: translateY(-10px);
+}
+
+.formation-icon {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formation-card h3 {
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+}
+
+.formation-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.formation-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.formation-card li {
+    margin: 12px 0;
+    color: #444;
+}
+
+.formation-btn {
+    display: block;
+    background: #ff3b3b;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.formation-btn:hover {
+    background: #e62e2e;
+}
     /* NAVIGATION */
     nav {
       background: #111;
@@ -261,7 +343,65 @@
 
     </div>
   </section>
+<section id="formations" class="formations">
+    
+    <h2>Nos Formations 🎬</h2>
+    <p class="subtitle">
+        Apprends le montage vidéo étape par étape 🚀
+    </p>
 
+    <div class="formation-container">
+
+        <!-- Formation 1 -->
+        <div class="formation-card">
+            <div class="formation-icon">🎬</div>
+
+            <h3>Formation Montage Vidéo Débutant</h3>
+
+            <p>
+                Apprends les bases du montage vidéo, même si tu es complètement débutant.
+            </p>
+
+            <ul>
+                <li>✅ Introduction au montage vidéo</li>
+                <li>✅ Découpage et assemblage des vidéos</li>
+                <li>✅ Ajouter de la musique 🎵</li>
+                <li>✅ Ajouter des textes et effets ✨</li>
+                <li>✅ Exporter une vidéo professionnelle</li>
+            </ul>
+
+            <a href="#contact" class="formation-btn">
+                Commencer maintenant 🚀
+            </a>
+        </div>
+
+
+        <!-- Formation 2 -->
+        <div class="formation-card">
+            <div class="formation-icon">🔥</div>
+
+            <h3>Formation Montage Vidéo Avancé</h3>
+
+            <p>
+                Passe au niveau supérieur et crée des vidéos modernes et professionnelles.
+            </p>
+
+            <ul>
+                <li>✅ Transitions professionnelles</li>
+                <li>✅ Effets spéciaux 🎨</li>
+                <li>✅ Color grading 🎨</li>
+                <li>✅ Montage pour TikTok & Reels 📱</li>
+                <li>✅ Techniques professionnelles 🎬</li>
+            </ul>
+
+            <a href="#contact" class="formation-btn">
+                Je veux apprendre 🔥
+            </a>
+        </div>
+
+    </div>
+
+</section>
 
   <!-- FORMATIONS -->
   <section id="formations">
